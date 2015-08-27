@@ -65,29 +65,27 @@ end
    if sum%13==0
      return "Chocolate Bar"
    elsif sum%13==1
-     return "Electric blue crawfish in your house"
+     return "SURPRIZE!!! Electric blue crawfish in your house"
      elsif sum%13==2
-     return "Whoopie Cushion"
+     return "SURPRIZE!!! Whoopie Cushion"
      elsif sum%13==3
-     return "Bike"
+     return "SURPRIZE!!! Bike"
      elsif sum%13==4
-     return "Adopt a baby"
+     return "SURPRIZE!!! Adopt a baby"
    elsif sum%13==5
-     return "Free food card-valid for one use in your own kitchen"
+     return "SURPRIZE!!! Free food card-valid for one use in your own kitchen"
    elsif sum%13==6
-     return "Donate $5 to charity"
+     return "SURPRIZE!!! Donate $5 to charity"
    elsif sum%13==7
-     return "Do today what others WON'T, so tomorrow you can do what others CAN'T"
+     return "SURPRIZE!!! Do today what others WON'T, so tomorrow you can do what others CAN'T"
    elsif sum%13==8
-     return "Just keep doing you, dude"
+     return "SURPRIZE!!! Just keep doing you, dude"
    elsif sum%13==9
-     return "Tickets to Taylor Swift Concert"
+     return "SURPRIZE!!! Tickets to Taylor Swift Concert"
    elsif sum%13==10
-     return "Life-sized Kanye West cut-out"
+     return "SURPRIZE!!! Life-sized Kanye West cut-out"
    elsif sum%13==11
-     return "6-day Trip to Europe"
-     elsif sum%13==12
-     return "Adopt a puppy"
+     return "SURPRIZE!!! Adopt a puppy"
 end
 end
 end

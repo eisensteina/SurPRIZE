@@ -1,30 +1,29 @@
- <!doctype HTML>
+<!DOCTYPE html>
 <html>
-  <head>  <title> Squacoon Sighting Report Form </title>
-  <link rel = "stylesheet" type = "text/css"  href= "css/style.css">
-  
-  </head>
-  
-  <body>
-  <h2>  Squacoon Sighting Report Form </h2>
-  <form method = "post">
-    <label for "name"> Name </label> <input type = "text" name = "name">
+  <head>
+  HELLO AND WELCOME!
+
+      </head>
    <br>
-    <label for "contact"> Contact </label>
-    <input type = "email" name = "contact">
-    <br>
-    <label for "date"> Date </label> <br> <input type = "date" name = "date">
-    <br>
-    <label for "emotion"> Emotional Response </label><br>
-    <select name = "emotion">
-      <option class = "label" value = "panic"> Panic </option>
-      <option class = "label" value = "cute" > Awww </option>
-      <option class = "label"i value = "Noble"> Awed Respect </otpion>
-    </select>
+ First write your name and then proceed with the test
   <br>
-    <input type = "submit" value = "Submit">
-    
-  </form>
-  <img width = "250" height = "180" src = "http://bekat.yolasite.com/resources/squacoon.JPG.opt378x275o0,0s378x275.JPG"
-  > </body>
-</html>
+  <body>
+    <form method="post">
+    <select name= "HERE">
+      <option value="test">Test</option>
+  <option value="start">start</option>
+  <option value="dont start">dont start</option>
+  <option value="i hate tests">I hate Tests</option>
+  </select>
+    </form>
+<form action="Test.erb">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+  </body>
+  </html>

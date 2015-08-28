@@ -1,12 +1,24 @@
 body{
   font-family: 'sans-serif';
+  background-image: url("http://2.bp.blogspot.com/-v9DkZfvDl5c/UiBYIDH4bhI/AAAAAAAACbA/WBlGDSM0nqw/s1600/Balloon-Background5.jpg");
+    background-color: #cccccc;
+
 }
 
-h2{ 
-  font: strong;
+h1{
+  font: italic;
   text-align: center;
+  color: rgb(00,00,99);
+  font-size: 90px;
 }
 
+h3{
+  font: p.oblique
+    font-style: oblique;
+  text-align: center;
+  color: rgb(33,00,00);
+  font-size: 45px;
+}
 form{
   width: 33%;
   padding: 10px;
@@ -16,15 +28,15 @@ form{
 }
 
 form{
-  
-  border: 1px solid;
-  border-radius: 5px;
+
+  border: 8px solid;
+  border-radius: 2px;
 }
 
 label, input, option{
   margin-top: 2%;
   margin-bottom: 2%;
-  
+
 }
 img{
   margin-left: 31%;

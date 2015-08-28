@@ -63,31 +63,31 @@ end
     sum=0
   array.each { |a| sum+=a }
    if sum%13==0
-     return "SURPRIZE!!! Chocolate Bar"
+     return ["SURPRIZE!!! Chocolate Bar! Click the image for details.", "images/chocolate-excuses-bar.jpg", "http://www.amazon.com/Hersheys-Milk-Chocolate-1-55-Ounce-Bars/dp/B000IXWCQO/ref=sr_1_1?s=grocery&ie=UTF8&qid=1440768390&sr=1-1&keywords=hershey+chocolate+bars"]
    elsif sum%13==1
-     return "SURPRIZE!!! Electric blue crawfish in your house"
+     return ["SURPRIZE!!! Electric blue crawfish in your house! Click the image for details.", "images/FWI-ElectricBlue-500x500.jpg", "http://www.amazon.com/Electric-Crayfish-Freshwater-Lobsters-Aquatic/dp/B00QQZK8PU/ref=sr_1_1?s=pet-supplies&ie=UTF8&qid=1440768468&sr=1-1&keywords=electric+blue+crayfish"]
      elsif sum%13==2
-     return "SURPRIZE!!! Whoopie Cushion"
+     return ["SURPRIZE!!! Whoopee Cushion! Click the image for details.", "images/whoopie-cushion.jpg", "http://www.amazon.com/Loftus-0365-Inflate-Whoopee-Cushion/dp/B0006GK6X4/ref=sr_1_3?s=toys-and-games&ie=UTF8&qid=1440768506&sr=1-3&keywords=whoopie+cushion"]
      elsif sum%13==3
-     return "SURPRIZE!!! Bike"
+     return ["SURPRIZE!!! Bike! Click the image for details.", "images/BeachBike.jpg", "http://www.amazon.com/Mongoose-Cache-Mens-Mountain-Bike/dp/B00KY1KW44/ref=sr_1_7?s=toys-and-games&ie=UTF8&qid=1440768540&sr=1-7&keywords=bike"]
      elsif sum%13==4
-     return "SURPRIZE!!! Adopt a baby"
+     return ["SURPRIZE!!! Adopt a baby! Click the image for details.", "images/baby2.gif", "http://apps.ocfs.ny.gov/Adoption/Family/ViewEdit/HomeStudy.aspx"]
    elsif sum%13==5
-     return "SURPRIZE!!! Free food card-valid for one use in your own kitchen"
+     return ["SURPRIZE!!! Free food card-valid for one use in your own kitchen! Click the image for details.", "images/free-sign.png", "http://www.snapfish.com/snapfish/storepage/storePageId=page-printables-kitchen"]
    elsif sum%13==6
-     return "SURPRIZE!!! Donate $5 to charity"
+     return ["SURPRIZE!!! Donate $5 to charity! Click the image for details.", "images/donate.jpg", "https://www.friendshipcircle.org/donate/"]
    elsif sum%13==7
-     return "SURPRIZE!!! Do today what others WON'T, so tomorrow you can do what others CAN'T"
+     return ["SURPRIZE!!! Do today what others WON'T, so tomorrow you can do what others CAN'T", "images/inspirational-quotes-15.jpg", "http://www.goodreads.com/author/quotes/41758.Jerry_Rice"]
    elsif sum%13==8
-     return "SURPRIZE!!! Just keep doing you, dude"
+     return ["SURPRIZE!!! Just keep doing you, dude", "images/inspiration.jpg", "https://answers.yahoo.com/question/index?qid=20140610160416AATqOBE"]
    elsif sum%13==9
-     return "SURPRIZE!!! Tickets to Taylor Swift Concert"
+     return ["SURPRIZE!!! Tickets to Taylor Swift Concert! Click the image for details.", "images/TaylorSwiftSurprised.jpg", "http://www.stubhub.com/taylor-swift-tickets/performer/136034/"]
    elsif sum%13==10
-     return "SURPRIZE!!! Life-sized Kanye West cut-out"
+     return ["SURPRIZE!!! Life-sized Kanye West cut-out! Click the image for details.", "images/kanye-west-black-suit-sunglasses.jpg", "http://www.amazon.com/Kanye-West-Life-Size-Cutout/dp/B00V6BEH0Q"]
    elsif sum%13==11
-     return "SURPRIZE!!! Adopt a puppy"
+     return ["SURPRIZE!!! Adopt a puppy! Click the image for details.", "images/puppy.jpg", "http://www.unleashedny.org/rescue/adopt/"]
      elsif sum%13==12
-     return "SURPRIZE!!! Ping Pong Table"
+     return ["SURPRIZE!!! Ping Pong Table! Click the image for details.", "images/ledpong.jpg", "http://www.amazon.com/JOOLA-Inside-Table-Tennis/dp/B002HWNVZK/ref=lp_3419501_1_1?s=leisure-sports-games&ie=UTF8&qid=1440769418&sr=1-1"]
 end
 end
 end

@@ -5,15 +5,15 @@ class Answer_key
 
   def questions(gender,age,mood,celebrity,food)
    array=[]
-    if gender.downcase=="boy"
+    if gender=="Boy"
     array.push(0)
-  elsif gender.downcase=="girl"
+  elsif gender=="Girl"
     array.push(1)
-  elsif gender.downcase=="alien"
+  elsif gender=="Alien"
     array.push(2)
-  elsif gender.downcase=="dinosaur"
+  elsif gender=="Dinosaur"
     array.push(3)
-  elsif gender.downcase=="other"
+  elsif gender=="Other"
    array.push(4)
   end
   if age=="0-15"
@@ -27,43 +27,43 @@ class Answer_key
   elsif age=="61+"
     array.push(4)
 end
-  if mood.downcase=="overjoyed"
+  if mood=="Overjoyed"
     array.push(0)
-  elsif mood.downcase=="chill"
+  elsif mood=="Chill"
     array.push(1)
-  elsif mood.downcase=="sad"
+  elsif mood=="Sad"
     array.push(2)
-  elsif mood.downcase=="tired"
+  elsif mood=="Tired"
     array.push(3)
-  elsif mood.downcase=="other"
+  elsif mood=="Other"
     array.push(4)
   end
-  if celebrity.downcase=="alex rodriguez"
+  if celebrity=="Alex Rodriguez"
     array.push(0)
-  elsif celebrity.downcase=="taylor swift"
+  elsif celebrity=="Taylor Swift"
      array.push(1)
-  elsif celebrity.downcase=="brad pitt"
+  elsif celebrity=="Brad Pitt"
     array.push(2)
-  elsif celebrity.downcase=="donald trump"
+  elsif celebrity=="Donald Trump"
     array.push(3)
-  elsif celebrity.downcase=="celebrities want to meet me"
+  elsif celebrity=="Celebrities want to meet me"
     array.push(4)
   end
-  if food.downcase=="steak"
+  if food=="Steak"
     array.push(0)
-  elsif food.downcase=="pasta"
+  elsif food=="Pasta"
     array.push(1)
-  elsif food.downcase=="ice cream"
+  elsif food=="Ice Cream"
     array.push(2)
-  elsif food.downcase=="pizza"
+  elsif food=="Pizza"
     array.push(3)
-  elsif food.downcase=="chocolate"
+  elsif food=="Chocolate"
    array.push(4)
   end
     sum=0
   array.each { |a| sum+=a }
    if sum%13==0
-     return "Chocolate Bar"
+     return "SURPRIZE!!! Chocolate Bar"
    elsif sum%13==1
      return "SURPRIZE!!! Electric blue crawfish in your house"
      elsif sum%13==2
@@ -86,8 +86,9 @@ end
      return "SURPRIZE!!! Life-sized Kanye West cut-out"
    elsif sum%13==11
      return "SURPRIZE!!! Adopt a puppy"
+     elsif sum%13==12
+     return "SURPRIZE!!! Ping Pong Table"
 end
 end
 end
 mark=Answer_key.new
-puts mark.questions("other","61+","other","donald trump","chocolate")

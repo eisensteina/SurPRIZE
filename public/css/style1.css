@@ -1,0 +1,30 @@
+body{
+  font-family: 'sans-serif';
+  background-image: url("http://cdns2.freepik.com/free-photo/surprise-background-in-comic-style_62147511478.jpg");
+  background-size: 162px 75px;
+    background-color: #cccccc;
+
+}
+
+
+p{
+  font: italic;
+  text-align: left;
+  color: rgb(33,00,00);
+  font-size: 50px;
+}
+
+select{
+  font: italic;
+  text-align: center;
+  color: rgb(00,104,00);
+  font-size: 30px;
+}
+
+
+input{
+  font: italic;
+  text-align: center;
+  color: rgb(00,00,99);
+  font-size: 60px;
+}

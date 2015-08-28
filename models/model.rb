@@ -67,7 +67,7 @@ end
    elsif sum%13==1
      return "SURPRIZE!!! Electric blue crawfish in your house"
      elsif sum%13==2
-     return "SURPRIZE!!! Whoopie Cushion"
+     return "SURPRIZE!!! whoopee Cushion"
      elsif sum%13==3
      return "SURPRIZE!!! Bike"
      elsif sum%13==4

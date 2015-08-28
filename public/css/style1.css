@@ -1,19 +1,34 @@
 body{
   font-family: 'sans-serif';
-  background-image: url("http://cdns2.freepik.com/free-photo/surprise-background-in-comic-style_62147511478.jpg");
-  background-size: 162px 75px;
+  background-image: url("http://2.bp.blogspot.com/-v9DkZfvDl5c/UiBYIDH4bhI/AAAAAAAACbA/WBlGDSM0nqw/s1600/Balloon-Background5.jpg");
+  background-size: 160px 130px;
     background-color: #cccccc;
+  text-align: center;
 
 }
 
 
 p{
-  font: italic;
+  font: bold;
   text-align: left;
-  color: rgb(33,00,00);
+  color: rgb(00,00,99);
+  font-weight: 900;
   font-size: 50px;
 }
 
+h2{
+  font: bold;
+  text-align: center;
+  color: rgb(00,00,99);
+  font-weight: 900;
+  font-size: 100px;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+      <IMG class="displayed" src="..." alt="...">}
 select{
   font: italic;
   text-align: center;
@@ -26,5 +41,5 @@ input{
   font: italic;
   text-align: center;
   color: rgb(00,00,99);
-  font-size: 60px;
+  font-size: 45px;
 }
